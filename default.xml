@@ -21,7 +21,7 @@
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
   
-  <remote name="arpi" fetch="https://github.com/G-Raja"/>
+  <remote name="arpi" fetch="https://github.com/G-Raja/arpi4_kernel"/>
   <remote  name="arpi" fetch="."/>
   <remove-project name="kernel/common"/>
   <project path="common" name="arpi4_kernel" revision="arpi4-5.10" remote="arpi">
