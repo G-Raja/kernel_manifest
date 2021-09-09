@@ -1,5 +1,8 @@
 
+
+
 # Download Kernel source
+ 
  Refer to https://source.android.com/setup/build/building-kernels
 
  Make separate kernel directory apart from Android source.
@@ -8,7 +11,8 @@
   $ repo init -u https://github.com/G-Raja/kernel_manifest -b arpi4-5.10
   $ repo sync
  
-# Build Kernel
+
+ # Build Kernel
   $ build/build.sh
 
   Output files are under out/arpi4-5.10/dist/
