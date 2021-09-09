@@ -1,6 +1,5 @@
 
 
-
 # Download Kernel source
  
  Refer to https://source.android.com/setup/build/building-kernels
